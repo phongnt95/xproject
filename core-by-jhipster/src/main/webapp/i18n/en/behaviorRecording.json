@@ -1,0 +1,22 @@
+{
+  "xprojectApp": {
+    "behaviorRecording": {
+      "home": {
+        "title": "Behavior Recordings",
+        "createLabel": "Create a new Behavior Recording",
+        "createOrEditLabel": "Create or edit a Behavior Recording"
+      },
+      "created": "A new Behavior Recording is created with identifier {{ param }}",
+      "updated": "A Behavior Recording is updated with identifier {{ param }}",
+      "deleted": "A Behavior Recording is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Behavior Recording {{ id }}?"
+      },
+      "detail": {
+        "title": "Behavior Recording"
+      },
+      "action": "Action",
+      "datetime": "Datetime"
+    }
+  }
+}

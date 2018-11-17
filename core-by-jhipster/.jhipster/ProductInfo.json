@@ -1,0 +1,79 @@
+{
+    "name": "ProductInfo",
+    "fields": [
+        {
+            "fieldName": "weight",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "high",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "measurement1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "measurement2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "measurement3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "phoneNumber",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "joinTime",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "comeFrom",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "xInfo",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "productInfo",
+            "otherEntityName": "product",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "productInfo"
+        }
+    ],
+    "changelogDate": "20181117080135",
+    "entityTableName": "product_info",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

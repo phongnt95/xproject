@@ -1,0 +1,105 @@
+entity Product {
+    name String required,
+    price Long required,
+    status Boolean required,
+    age Long required
+}
+
+entity Image {
+	url String required,
+    isWallpaper Boolean required
+}
+
+// an ignored comment
+/** not an ignored comment */
+entity Location {
+	streetAddress String,
+	city String,
+    district String,
+    ward String
+}
+
+entity ProductInfo {
+	weight Long,
+    high Long,
+    measurement1 String,
+    measurement2 String,
+    measurement3 String,
+    description String required,
+    phoneNumber String required,
+    joinTime ZonedDateTime required,
+    comeFrom String required,
+    xInfo String required
+}
+
+entity ServiceOpt {
+	name String required
+}
+
+entity Code{
+	code String required
+}
+
+entity BehaviorRecording{
+	action Action required,
+    datetime ZonedDateTime required
+}
+
+entity Comment{
+	content String required,
+    datetime ZonedDateTime
+}
+
+entity UserX{
+	username String required,
+    password String required,
+    fullname String required,
+    phoneNumber String required,
+    xInfo String required,
+    status Boolean required,
+    datetime ZonedDateTime required,
+    role XRole required
+}
+
+enum XRole{
+	CHECKER,BROKER
+}
+
+enum Action{
+	VIEW,GETCODE,COMMENT
+}
+
+relationship OneToOne {
+	ProductInfo{productInfo} to Product,
+    Code{pwd} to Product,
+    Product{uploadBy} to UserX
+}
+
+relationship ManyToOne {
+	Location{locationOf} to Product,
+    Comment{sub} to Comment,
+    Comment{comments} to Product,
+    Image{images} to Product
+}
+
+relationship ManyToMany {
+    ServiceOpt{Opts} to Product
+}
+
+
+
+
+
+// Set pagination options
+//paginate Product with infinite-scroll
+paginate Product, UserX with pagination
+
+// Use Data Transfert Objects (DTO)
+//dto * with mapstruct
+
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

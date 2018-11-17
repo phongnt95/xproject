@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.xproject",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "monolith",
+    "baseName": "xproject",
+    "packageName": "com.xproject",
+    "packageFolder": "com/xproject",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MmE1ODBlM2FlZDJlZjE3MGE2MzljMTAzODg0MTY1Mzk3OWU4NjMxN2UzMmZjODVhN2Q4NmU3ZWUxMDIxOThlZGQ3N2QzN2JhNmZkMTYxYmVjZmZhOTE5NjBmMmI2NWIxZjNjNjY1NjE3ODk3MGI4ZDBhMjFiZWU2ODYyYzA3NmE=",
+    "clientFramework": "react",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "vi"
+    ]
+  }
+}
