@@ -1,0 +1,31 @@
+{
+  "xprojectApp": {
+    "productInfo": {
+      "home": {
+        "title": "Product Infos",
+        "createLabel": "Thêm mới một Product Info",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Product Info"
+      },
+      "created": "Một Product Info mới được tạo với định danh {{ param }}",
+      "updated": "Một Product Info cập nhật với định danh {{ param }}",
+      "deleted": "Một Product Info đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Product Info {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Info"
+      },
+      "weight": "Weight",
+      "high": "High",
+      "measurement1": "Measurement 1",
+      "measurement2": "Measurement 2",
+      "measurement3": "Measurement 3",
+      "description": "Description",
+      "phoneNumber": "Phone Number",
+      "joinTime": "Join Time",
+      "comeFrom": "Come From",
+      "xInfo": "X Info",
+      "productInfo": "Product Info"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "xprojectApp": {
+    "behaviorRecording": {
+      "home": {
+        "title": "Behavior Recordings",
+        "createLabel": "Thêm mới một Behavior Recording",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Behavior Recording"
+      },
+      "created": "Một Behavior Recording mới được tạo với định danh {{ param }}",
+      "updated": "Một Behavior Recording cập nhật với định danh {{ param }}",
+      "deleted": "Một Behavior Recording đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Behavior Recording {{ id }}?"
+      },
+      "detail": {
+        "title": "Behavior Recording"
+      },
+      "action": "Action",
+      "datetime": "Datetime"
+    }
+  }
+}

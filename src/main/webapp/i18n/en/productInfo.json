@@ -1,0 +1,31 @@
+{
+  "xprojectApp": {
+    "productInfo": {
+      "home": {
+        "title": "Product Infos",
+        "createLabel": "Create a new Product Info",
+        "createOrEditLabel": "Create or edit a Product Info"
+      },
+      "created": "A new Product Info is created with identifier {{ param }}",
+      "updated": "A Product Info is updated with identifier {{ param }}",
+      "deleted": "A Product Info is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Product Info {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Info"
+      },
+      "weight": "Weight",
+      "high": "High",
+      "measurement1": "Measurement 1",
+      "measurement2": "Measurement 2",
+      "measurement3": "Measurement 3",
+      "description": "Description",
+      "phoneNumber": "Phone Number",
+      "joinTime": "Join Time",
+      "comeFrom": "Come From",
+      "xInfo": "X Info",
+      "productInfo": "Product Info"
+    }
+  }
+}

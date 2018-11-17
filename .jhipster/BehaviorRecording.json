@@ -1,0 +1,30 @@
+{
+    "name": "BehaviorRecording",
+    "fields": [
+        {
+            "fieldName": "action",
+            "fieldType": "Action",
+            "fieldValues": "VIEW,GETCODE,COMMENT",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "datetime",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181117080138",
+    "entityTableName": "behavior_recording",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

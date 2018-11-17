@@ -1,0 +1,10 @@
+{
+  "xprojectApp": {
+    "Action": {
+      "null": "",
+      "VIEW": "VIEW",
+      "GETCODE": "GETCODE",
+      "COMMENT": "COMMENT"
+    }
+  }
+}
